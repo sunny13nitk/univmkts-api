@@ -1,4 +1,4 @@
-package univ.com.univmkts.model.users.srv;
+package univ.com.univmkts.users.srv;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -9,7 +9,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import univ.com.univmkts.model.users.model.User;
+import univ.com.univmkts.users.model.User;
 
 public class UserDetailsImpl implements UserDetails
 {

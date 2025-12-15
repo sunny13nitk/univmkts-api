@@ -38,7 +38,7 @@ import com.nimbusds.jose.proc.SecurityContext;
 
 import lombok.RequiredArgsConstructor;
 import univ.com.univmkts.customAuth.CustomAuthenticationProvider;
-import univ.com.univmkts.model.users.srv.UserDetailsServiceImpl;
+import univ.com.univmkts.users.srv.UserDetailsServiceImpl;
 
 @Configuration
 @EnableWebSecurity

@@ -6,6 +6,7 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 import univ.com.univmkts.enums.EnumGrowth;
 import univ.com.univmkts.enums.EnumMCapClass;
@@ -14,6 +15,7 @@ import univ.com.univmkts.enums.EnumMCapClass;
 @Table(name = "watchlist")
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 public class EN_WatchlistPublic
 {
     @Id

@@ -1,4 +1,4 @@
-package univ.com.univmkts.model.users.model;
+package univ.com.univmkts.users.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

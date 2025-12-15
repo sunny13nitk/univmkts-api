@@ -1,4 +1,4 @@
-package univ.com.univmkts.model.users.srv;
+package univ.com.univmkts.users.srv;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import univ.com.univmkts.model.users.model.User;
+import univ.com.univmkts.users.model.User;
 
 @Service
 public class UserDetailsServiceImplLocal implements UserDetailsService
