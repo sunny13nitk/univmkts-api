@@ -66,9 +66,11 @@ public class JwtSecurityConfig
          */
         return httpSecurity
                 .authorizeHttpRequests(auth -> auth
-                                               .requestMatchers(HttpMethod.GET,"authenticate").permitAll()
-                                               //.requestMatchers(HttpMethod.POST,"/auth/addNewUser").permitAll() - Started using Pre-Registered Users
+                                               .requestMatchers(HttpMethod.POST,"/authenticate").permitAll()
+                                               //.requestMatchers(HttpMethod.POST,"/auth/addNewUser").permitAll() //- Started using Pre-Registered Users
 
+                                               //Add New User Endpoint - ADMIN Only  
+                                               .requestMatchers(HttpMethod.POST,"/auth/addNewUser").permitAll()
                                                // Screener APIs – ADMIN only
                                                .requestMatchers("/screener/**").hasAuthority("SCOPE_ADMIN")
                                               
